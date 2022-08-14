@@ -25,6 +25,11 @@ body {
   grid-template-areas: "article article aside" "article article aside" "article article aside";
   grid-area: main;
 }
+@media all and (max-width: 768px) {
+  .main {
+    grid-template-areas: "article article article" "article article article" "aside aside aside";
+  }
+}
 
 .article {
   grid-area: article;
@@ -34,4 +39,8 @@ body {
 .aside {
   grid-area: aside;
   background: yellow;
+}
+
+menu {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

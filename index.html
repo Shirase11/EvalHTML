@@ -3,23 +3,64 @@
 <head>
 <meta charset="utf-8"/>
 <title>L'ami.salsifis</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="L'amical du salsifis" content="Bienvenue sur la page officielle de l'amical du salsifis">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+">
 </head>
 <body>
     <header class="header">
         <h1>L'ami.salsifis</h1>
-        <h3>   c</h3>
-        Dans cet article, nous allons apprendre à créer un fil d’Ariane de navigation. Le fil d’Ariane est une aide à la navigation secondaire qui aide les utilisateurs à naviguer facilement sur un site Web. Le fil d’Ariane vous fournit une orientation et vous montre exactement où vous vous situez dans la hiérarchie du site Web.
+        <h3 class="c">c</h3>
+          <nav>
+            <menu>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Vertus</a></li>
+                <li><a href="#">Culture</a></li>
+            </menu>
+          </nav>
+          <nav aria-label="breadcrumb breadcrumb-light">
+            <ol class="breadcrumb bg-light">
+              <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+            </ol>
+          </nav>
     </header>
+           <main class="main">
+          <article class="article">
+            <h2>Bienvenue à l'amical du salsifis</h2>
+            <p>Notre association a été crée dans le but de défendre et vanter ce légume tant méconnu qu'est le salsifis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
+                Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, 
+                non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. 
+                Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis 
+                in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit 
+            </p>
 
-       <main class="main">
-          <article class="article">Article principale sur le salsifie</article>
-          <aside class="aside">card bootstrap</aside>
+          </article>
+            <aside class="aside">
+                <div class="card" style="width: 100%; height: 50%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Evénement à venir</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 100%;height: 50%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Evénement passé</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                  </div>
+            </aside>
        </main>
 
 <footer class="footer">Mon footer avec copyright etc.<footer>
-      
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+ "></script>    
 </body>
 
 </html>

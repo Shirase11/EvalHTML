@@ -1,4 +1,3 @@
-
 body {  display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 3fr 1fr;
@@ -25,6 +24,12 @@ background:green;}
       "article article aside"
       "article article aside";
     grid-area: main;
+    @media all and (max-width: 768px) {
+      grid-template-areas: 
+      "article article article"
+      "article article article"
+      "aside aside aside";
+    }
   }
   
   .article { grid-area: article; 
@@ -33,3 +38,6 @@ background: blue;}
   .aside { grid-area: aside;
 background: yellow; }
   
+menu {
+  list-style: none;
+}
