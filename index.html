@@ -8,27 +8,27 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
 ">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
     <header class="header">
-        <h1>L'ami.salsifis</h1>
-        <h3 class="c">c</h3>
-          <nav>
-            <menu>
-                <li><a href="#">Histoire</a></li>
-                <li><a href="#">Vertus</a></li>
-                <li><a href="#">Culture</a></li>
+        <img class="imghead" src="./salsifis header.jpg" alt="logo" title="logo_assos">
+        <div class="title"><h1>L'ami.salsifis</h1></div>
+            <menu class="menu">
+                <li><a href="#" title="L'histoire avec un H">Histoire</a></li>
+                <li><a href="#" title="La santé avant tout">Vertus</a></li>
+                <li><a href="#" title="Comment ça pousse">Culture</a></li>
             </menu>
-          </nav>
-          <nav aria-label="breadcrumb breadcrumb-light">
-            <ol class="breadcrumb bg-light">
-              <li class="breadcrumb-item active" aria-current="page">Accueil</li>
-            </ol>
-          </nav>
-    </header>
+   </header>
+    <nav class="bread" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active text-white" aria-current="page">Accueil</li>
+        </ol>
+      </nav>
            <main class="main">
           <article class="article">
             <h2>Bienvenue à l'amical du salsifis</h2>
+            <img src="./salsifis article.jpg" alt="photoarticle" title="Article_Salsifis">
             <p>Notre association a été crée dans le but de défendre et vanter ce légume tant méconnu qu'est le salsifis.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                 Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, 
@@ -39,26 +39,34 @@
 
           </article>
             <aside class="aside">
-                <div class="card" style="width: 100%; height: 50%;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card" style="width: 100%; height: 47%;">
+                    <img src="./foire.jpg" class="card-img-top" alt="foire">
                     <div class="card-body">
                       <h5 class="card-title">Evénement à venir</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">En savoir plus</a>
+                      <p class="card-text">Venez nombreux à la foire aux légumes de Petit-Poix (Lorraine) le samedi 18 octobre 2022..</p>
+                      <a href="./FuturEvent.html" class="btn btn-primary">En savoir plus</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 100%;height: 50%;">
-                    <img src="..." class="card-img-top" alt="...">
+                  <div class="card" style="width: 100%;height: 53%;">
+                    <img src="./festival.jpg" class="card-img-top" alt="festival">
                     <div class="card-body">
                       <h5 class="card-title">Evénement passé</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Le dimanche 10 avril se tenait à Perreux dans l'Eure le festival de la culture sans eau. 
+                        Un moment magique</p>
                       <a href="#" class="btn btn-primary">En savoir plus</a>
                     </div>
                   </div>
             </aside>
        </main>
 
-<footer class="footer">Mon footer avec copyright etc.<footer>
+<footer class="footer">
+    <p>Suivez nous sur les réseaux sociaux : <br>
+        <a href="#"><span class="bi bi-facebook"></span></a>
+        <a href="#"><span class="bi bi-instagram"></span></a>
+        <a href="#"><span class="bi bi-linkedin"></span></a>
+        <a href="#"><span class="bi bi-twitter"></span></a>
+    </p>
+    <footer>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
  "></script>    
 </body>
