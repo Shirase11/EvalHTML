@@ -44,7 +44,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Evénement à venir</h5>
                       <p class="card-text">Venez nombreux à la foire aux légumes de Petit-Poix (Lorraine) le samedi 18 octobre 2022..</p>
-                      <a href="./FuturEvent.html" class="btn btn-primary">En savoir plus</a>
+                      <a href="#FuturEvent" class="btn btn-primary">En savoir plus</a>
                     </div>
                   </div>
                   <div class="card" style="width: 100%;height: 53%;">
@@ -58,7 +58,43 @@
                   </div>
             </aside>
        </main>
-
+       <div id="FuturEvent" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <header class="container"> 
+              <a href="#" class="closebtn">×</a>
+              <h2>Foire aux légumes de Petit-Poix</h2>
+            </header>
+            <div class="container">
+              <img class="img-fluid" alt="Responsive image" img src="./stand.jpg" title="photoStand">
+              <p>La foire aux légumes de Petit-Poix (Lorraine) se tiendra le samedi 18 octobre 2022 à partir
+                de 08h30 place de l'Eglise et réunira une centaine d'exposants spécialites de l'art de la culture
+                des légumes et plus particulièrement le salsifis.<br>
+                La foire est ouverte à toutes et à tous et est gratuite.<br>
+                <h5>Il reste des places disponibles en tant qu'exposants. Remplissez le formulaire ci-dessous pour prendre
+                contact avec les organisateurs:</h5>
+                <form class="form" method="post" action="#">
+                  <div class="lab">
+                    <label for ="name">Nom</label>
+                  <input type="text" id="name" name="nom">
+                  </div>
+                  <div class="lab">
+                  <label for ="surname">Prénom</label>
+                  <input type="text" id="surname" name="prénom">
+                  </div>
+                  <div class="lab">
+                  <label for ="email">Adresse mail</label>
+                  <input type="email" id="email" name="mail">
+                  </div>
+                  <label for="précis">Précisez ci-dessous votre demande (longueur stand/spécialitée(s):</label><br>
+                  <textarea id="précis" name="précis" rows="10" cols="20" placeholder="Ma demande concerne 3m..."></textarea><br>
+                  <button class="bout" type="submit">Envoyez votre demande</button>
+                </form>
+              </p>  
+            </div>
+          </div>
+        </div>
+      </div >
 <footer class="footer">
     <p>Suivez nous sur les réseaux sociaux : <br>
         <a href="#"><span class="bi bi-facebook"></span></a>
